@@ -1,0 +1,49 @@
+#######################################
+# Syntax Coloring Map For P1AM-Serial
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+P1AM_Serial	KEYWORD1
+RS485	KEYWORD1
+RS422	KEYWORD1
+Port1	KEYWORD1
+Port2	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+serial_port_config	KEYWORD2
+start_handshake	KEYWORD2
+set_rts	KEYWORD2
+clear_rts	KEYWORD2
+read_cts	KEYWORD2
+
+PORT1_RS485_BEGIN	KEYWORD2
+PORT1_RS232_BEGIN	KEYWORD2
+PORT2_RS485_BEGIN	KEYWORD2
+PORT2_RS232_BEGIN	KEYWORD2
+
+begin	KEYWORD2
+end KEYWORD2
+peek	KEYWORD2
+read	KEYWORD2
+flush	KEYWORD2
+write	KEYWORD2
+
+beginTransmission	KEYWORD2
+endTransmission	KEYWORD2
+receive	KEYWORD2
+noReceive	KEYWORD2
+sendBreak	KEYWORD2
+sendBreakMicroseconds	KEYWORD2
+setPins	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+RS232_MODE
+RS485_MODE
